@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Menu Icon</title>
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+<body>
+    <div class="container">
+      <div class="menu-icon" onclick="changeToggle(this)">
+        <div class="bar-1"></div>
+        <div class="bar-2"></div>
+        <div class="bar-3"></div>
+      </div>
+    </div>
+
+    <script>
+      function changeToggle (x){
+        x.classList.toggle("change");
+      }
+    </script>
+  <script src="https://kit.fontawesome.com/686b7189c6.js" crossorigin="anonymous"></script>
+</body>
+</html>
